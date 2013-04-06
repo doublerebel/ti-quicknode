@@ -32,9 +32,9 @@ class qNodeList
 				node for node in @ when node.tagName is filter
 			else
 				[key, value] = filter.split "="
-				node for node in @ when node.getAttribute key is value
+				node for node in @ when (node.getAttribute key) is value
 		else
-			node for node in @ when filter node
+			node for node in @ when filter qNode node
 
 	find: (filter) ->
 		els = @filter filter
