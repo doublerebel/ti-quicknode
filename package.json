@@ -1,0 +1,23 @@
+{
+  "name": "ti-quicknode",
+  "version": "0.0.1",
+  "description": "A jQuery-like XML Node wrapper for traversing XML documents in Titanium Mobile",
+  "main": "quicknode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doublerebel/ti-quicknode"
+  },
+  "keywords": [
+    "titanium",
+    "appcelerator",
+    "xml",
+    "jquery",
+    "traverse"
+  ],
+  "author": "Charles Phillips <charles@doublerebel.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
